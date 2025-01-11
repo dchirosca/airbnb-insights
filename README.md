@@ -1,2 +1,11 @@
 # airbnb-insights
-This project aims to identify the main components that lead to a high rating on airbnb properties
+This project aims to identify the main components that lead to a high rating on airbnb properties.
+This study provides an in-depth analysis of the factors influencing Airbnb property ratings, leveraging advanced data mining and machine learning techniques. The findings highlight the complexity and multidimensionality of the variables contributing to a property's success on the Airbnb platform.
+
+The implementation of the Random Forest and XGBoost algorithms demonstrated their effectiveness in modeling and predicting ratings. Random Forest proved particularly robust against overfitting, while XGBoost delivered impressive predictive accuracy by iteratively correcting errors. Among the models developed, the Random Forest algorithm achieved the lowest error rate, with an RMSE of 0.2106. However, the difference between this result and that of XGBoost was minimal. The optimization process, including parameter tuning through grid search and the use of cross-validation, was crucial in ensuring the accuracy and reliability of the predictions.
+
+Critical variables influencing Airbnb property ratings were identified, including host characteristics (e.g., superhost status, number of properties owned, response rate, and detailed host descriptions) and property attributes (e.g., number of amenities, pricing, bathroom and room type, and the neighborhood’s Human Development Index). This detailed variable analysis provides valuable insights into the aspects most important to Airbnb guests. The study’s results can help hosts enhance property presentation and better manage the amenities they offer.
+
+The study's main limitation lies in the significant computational time required for running machine learning algorithms, which restricted the exploration of additional techniques for predicting property ratings.
+
+Future research directions include further development and optimization of predictive models, expanding the analysis to other cities and regions, and examining the impact of seasonality, which had limited visibility in the New York dataset. This expansion will help determine whether similar variables hold relevance in other regions and if the findings remain consistent across different contexts.
